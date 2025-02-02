@@ -1,4 +1,4 @@
-# E-ducate Documentation
+# E-ducate
 
 <div style="text-align:center;">
   <img src="https://github.com/tadahiroueta/educate-frontend/blob/master/public/logo.png" alt="logo" />
@@ -6,7 +6,7 @@
 
 ***Educational help platform***
 
-[Website](https://educate-alpha.netlify.app/) · [Built With](#built-with) · [Features](#features) · [Contribute](#contribute) · [Figma](https://www.figma.com/design/d1LsewWkwgpcSQsfPmPpM5/Untitled?node-id=0-1&t=TX9bQU9hNgUo4pvm-1)
+[Website](https://educate-alpha.netlify.app/) · [Built With](#built-with) · [Features](#features) · [Contribute](#contribute)
 
 ## Built With
 
@@ -23,40 +23,39 @@
 
 ## Features
 
-![welcome page](./documentation/screenshots/welcome-page.png)
-<!-- TODO fix image url to GitHub's -->
+![welcome page](https://github.com/tadahiroueta/educate-documentation/blob/master/screenshots/welcome-page.png)
 
 ### Crowd Sourced Learning
 
-![flashcard dashboard](./documentation/screenshots/flashcard-dashboard.png)
+![flashcard dashboard](https://github.com/tadahiroueta/educate-documentation/blob/master/screenshots/flashcard-dashboard.png)
 
 Users can create and share flashcard sets for fellow students.
 
-![flashcard](./documentation/screenshots/flashcard-create.png)
+![flashcard](https://github.com/tadahiroueta/educate-documentation/blob/master/screenshots/flashcard-create.png)
 
 ### Blogs
 
 E-ducate supplies a collection of informative articles on the education system in America.
 
-![blog dashboard](./documentation/screenshots/blog-dashboard.png)
+![blog dashboard](https://github.com/tadahiroueta/educate-documentation/blob/master/screenshots/blog-dashboard.png)
 
 ### Database
 
 We have implemented a Mongo database to dynamically grow the platforms resources.
 
-![MongoDB](./documentation/screenshots/mongo-db.png)
+![MongoDB](https://github.com/tadahiroueta/educate-documentation/blob/master/screenshots/mongo-db.png)
 
 ### Backend Server API
 
 An independent backend server API is used to handle all database requests.
 
-![backend server](./documentation/screenshots/backend.png)
+![backend server](https://github.com/tadahiroueta/educate-documentation/blob/master/screenshots/backend.png)
 
 ### UI/UX Design
 
 All of the UI/UX was designed in [Figma](https://www.figma.com/) for prototyping.
 
-![Figma design](./documentation/screenshots/figma-design.png)
+![Figma design](https://github.com/tadahiroueta/educate-documentation/blob/master/screenshots/figma-design.png)
 
 ## Contribute
 
@@ -72,12 +71,23 @@ All of the UI/UX was designed in [Figma](https://www.figma.com/) for prototyping
     
     > If you have no issues assigned to yourself, feel free to find assign yourself to any issue that suits your talents or interests (or assume your job is done!)
 
+### Read
+
+1. Go to the repository where you want to contribute
+
+    > Either
+    > * [Frontend](https://github.com/tadahiroueta/educate-frontend)
+    > * [Backend](https://github.com/tadahiroueta/educate-backend)
+    > * [Documentation](https://github.com/tadahiroueta/educate-documentation)
+
+2. Read the ``Contribute`` section of ``README.md`` file for ``Set up`` instructions
+
 ### Navigating GitHub
 
 1. Download repository to your computer
 
     ```sh
-    git clone https://github.com/tadahiroueta/educate-documentation.git
+    git clone https://github.com/tadahiroueta/<repository-name>.git
     git fetch origin
     git checkout main
     git pull origin main
